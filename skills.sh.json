@@ -1,0 +1,11 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "PersonaStack",
+      "description": "Skills for designing PersonaStack teams and stack templates.",
+      "skills": ["skill-create-stack"]
+    }
+  ]
+}

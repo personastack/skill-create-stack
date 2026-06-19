@@ -1,0 +1,7 @@
+interface:
+  display_name: "Create PersonaStack Stack"
+  short_description: "Design mission-driven PersonaStack teams"
+  default_prompt: "Use $skill-create-stack to turn this outcome into a PersonaStack mission, personas, responsibilities, instructions, tools, and handoffs."
+
+policy:
+  allow_implicit_invocation: true
