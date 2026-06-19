@@ -56,7 +56,7 @@ Persona instructions are execution behavior.
 
 - They state how the persona works.
 - Include cadence, tool use, memory, collaboration, approval, and escalation.
-- Good: "Use Perplexity each morning, archive durable facts to `ai-news-research`, and notify Author when a research document is ready."
+- Good: "Use the assigned research integration each morning, archive durable facts to the stack's research memory topic, and notify Author when a research document is ready."
 
 ## Decomposition Workflow
 
@@ -71,7 +71,7 @@ Persona instructions are execution behavior.
 3. Split by accountability.
    - Make personas own outcomes, not tools.
    - Prefer "Secretary owns inbox triage" over "Gmail user".
-   - Prefer "Operations owns uptime and deploys" over "Railway user".
+   - Prefer "Operations owns uptime and deploys" over "deployment tool user".
 
 4. Add handoffs.
    - Every multi-persona stack needs explicit collaboration edges.
