@@ -38,3 +38,7 @@ The skill is meant to produce stack-builder-ready content: title, mission, perso
 ## Target Platform
 
 This skill is specifically written for creating stacks on `my.personastack.ai`, where a stack is a mission-driven team of personas with tool access, responsibilities, and collaboration rules.
+
+## Environment configuration
+
+This repository contains an agent skill and metadata. It has no application, build script, workflow or environment-variable reader. Environment configuration belongs to the host agent and the PersonaStack services it calls. An application environment inventory is not applicable.
