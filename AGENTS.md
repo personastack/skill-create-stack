@@ -1,5 +1,12 @@
 # skill-create-stack Agent Instructions
 
+## PersonaStack workspace
+
+- Use the `personastack-agent` skill before working on this repository.
+- If unavailable, locate or clone `git@github.com:personastack/agent-root.git` and read its `AGENTS.md`.
+- Follow `docs/REPOSITORY_STRUCTURE.md` and work from this repository’s mapped directory.
+- Preserve existing work. Report any workspace preparation blocker.
+
 ## Cross-repository workspace setup
 
 Before significant cross-repository feature work, use the main `agent-root` workspace. Clone `git@github.com:personastack/agent-root.git` into a directory named `personastack`, then clone all 37 PersonaStack child repositories under it at the exact destinations listed in [`docs/REPOSITORY_STRUCTURE.md`](../docs/REPOSITORY_STRUCTURE.md). Each service is an independent sibling Git repository. Do not clone peers inside this standalone service checkout. This repository should be used from its mapped child directory under `personastack/` for cross-repository work.
